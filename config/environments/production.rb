@@ -86,6 +86,9 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  ENV['PUBLISHABLE_KEY'] = 'pk_test_XnyQaNxc8ez6glt4AoAcmjAP'
+  ENV['SECRET_KEY'] = 'sk_test_nHtp0ekP28rXrwG1y09oHQuM'
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
