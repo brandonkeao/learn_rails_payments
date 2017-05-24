@@ -5,4 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+#AdminUser.create!(email: 'admin3@example.com', password: 'password', password_confirmation: 'password')
+
+niceLogo = Product.create(title: "Quality Logo2",
+	subtitle: "Learn to Code x2", 
+	image_name: "Logo-.5.png",
+	price: "9.99",
+	sku: "logoFive-2",
+	download_url: "https://s3-us-west-1.amazonaws.com/rails-learnapp-bucket-2017/Logo-.5.png",
+	details: "A really nice logo 2",
+	description: %(<p>It's a Logo 2</p>))
+
+
+
